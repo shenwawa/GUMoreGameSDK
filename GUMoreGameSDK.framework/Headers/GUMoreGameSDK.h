@@ -12,6 +12,9 @@
 
 #import <GUMoreGameSDK/GUMGManager.h>
 #import <GUMoreGameSDK/GUMGAdsInfoManager.h>
+#import <GUMoreGameSDK/GUMGAdsInfo.h>
+#import <GUMoreGameSDK/GUMGAdsInfoModel.h>
+#import <GUMoreGameSDK/GUMGAdsMaterialModel.h>
 #import <GUMoreGameSDK/GUMGGenerator.h>
 #import <GUMoreGameSDK/GUMGConfiguration.h>
 #import <GUMoreGameSDK/GUMGVideoFileManager.h>
@@ -19,6 +22,8 @@
 
 #import <GUMoreGameSDK/GUMGSize.h>
 #import <GUMoreGameSDK/GUMGView.h>
+#import <GUMoreGameSDK/GUMGPlayer.h>
 #import <GUMoreGameSDK/GUMGNetworkTool.h>
 #import <GUMoreGameSDK/GUNetworkInformation.h>
 #import <GUMoreGameSDK/GUReachability.h>
+#import <GUMoreGameSDK/UIView+CustomGesture.h>
