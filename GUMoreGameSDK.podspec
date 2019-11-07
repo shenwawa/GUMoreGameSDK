@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "taeja" => "shenxstest@sina.com" }
   s.social_media_url   = "https://weibo.com/6017866369/profile?topnav=1&wvr=6&is_all=1"
   s.source       = { :git => "https://github.com/shenwawa/GUMoreGameSDK.git", :tag => s.version }
-  s.source_files = 'GUMoreGameSDK/GUMoreGameSDK.framework/Headers/*.{h}'
+  s.source_files = 'GUMoreGameSDK.framework/Headers/*.{h}'
   s.requires_arc = true
   s.vendored_frameworks = 'GUMoreGameSDK.framework'
   s.frameworks = "Foundation", "UIKit"
