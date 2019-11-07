@@ -1,0 +1,6 @@
+framework module GUMoreGameSDK {
+  umbrella header "GUMoreGameSDK.h"
+
+  export *
+  module * { export * }
+}
