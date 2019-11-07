@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.homepage     = "https://github.com/shenwawa/GUMoreGameSDK"
   s.author             = { "taeja" => "shenxstest@sina.com" }
-  s.social_media_url   = "https://weibo.com/6017866369/profile?topnav=1&wvr=6&is_all=1"
+  s.social_media_url   = "https://www.jianshu.com/u/27319193fc41"
   s.source       = { :git => "https://github.com/shenwawa/GUMoreGameSDK.git", :tag => s.version }
   s.source_files = 'GUMoreGameSDK.framework/Headers/*.{h}'
   s.requires_arc = true
