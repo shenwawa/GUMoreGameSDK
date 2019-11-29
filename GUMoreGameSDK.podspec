@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GUMoreGameSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "This is a development kit for display game application video."
   s.license      = "MIT"
   s.ios.deployment_target = '10.0'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.vendored_frameworks = 'GUMoreGameSDK.framework'
   s.frameworks = "Foundation", "UIKit"
-  s.dependency 'MJExtension', '~> 3.2.1'
+  
 end
