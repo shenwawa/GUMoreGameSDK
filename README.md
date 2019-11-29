@@ -44,7 +44,7 @@ end
 ```
 保存并退出，在terminal上进入到工程目录下，输入命令``pod install``，开始安装``GUMoreGameSDK``。安装成功后，输入``open yourProjectName.xcworkspeace``，打开Xcode。
 #### 手动集成SDK:
-1.  点击下载[GUMoreGameSDK_1.0.0](https://gu-sdk-assets.oss-cn-shenzhen.aliyuncs.com/moregame/ios/GUMoreGameSDK.framework_1.0.0.zip "GUMoreGameSDK_1.0.0")
+1.  点击下载[GUMoreGameSDK](https://gu-sdk-assets.oss-cn-shenzhen.aliyuncs.com/moregame/ios/GUMoreGameSDK.framework_1.0.2.zip)
 
 2. 下载``GUMoreGameSDK``，然后将``GUMoreGameSDK.framework``拖到你的工程目录中去。
 
