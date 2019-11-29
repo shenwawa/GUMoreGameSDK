@@ -1,5 +1,9 @@
-# GUMoreGameSDK
+# GUMoreGameSDK Description!
+
 This is a development kit for display game application video
+
+
+# GUMoreGameSDK Usage!
 
 ### 开始使用GUMoreGameSDK
 
@@ -13,7 +17,7 @@ This is a development kit for display game application video
 GUMoreGameSDK是支持CocoaPods的，所有可以使用CocoaPods集成，当然也可以通过手动集成。
 
 #### 使用CocoaPods快速集成SDK：
-CocoaPods是Objective-C或Swift的依赖管理工具，使用CocoaPods可以自动化集成三方依赖。如果想对CocoaPods有更多的了解，请点击[CocoaPods传送门](https://guides.cocoapods.org/ "CocoaPods传送门")。使用CocoaPods快速集成GUMoreGameSDK，首先打开Terminal，然后输入以下命令，进入到项目的根目录下，
+CocoaPods是Objective-C或Swift的依赖管理工具，使用CocoaPods可以自动化集成三方依赖。如果想对CocoaPods有更多的了解，请访问Cocoapods官网。使用CocoaPods快速集成GUMoreGameSDK，首先打开Terminal，然后输入以下命令，进入到项目的根目录下，
 ```
 cd /your project full path.
 ```
@@ -27,13 +31,13 @@ open Podfile
 然后复制粘贴以下内容:
 
 ```
-platform :ios, '9.0'
+platform :ios, '10.0'
 
-target 'GUAdsSDKTestSwift' do
+target 'YOUR_PROJECT_NAME' do
   
   use_frameworks!
 
-  pod 'GUMoreGameSDK', '~> 1.0.0'
+  pod 'GUMoreGameSDK', '~> 1.0.2'  //最新版本为1.0.2
 
 end
 
@@ -41,14 +45,14 @@ end
 保存并退出，在terminal上进入到工程目录下，输入命令``pod install``，开始安装``GUMoreGameSDK``。安装成功后，输入``open yourProjectName.xcworkspeace``，打开Xcode。
 #### 手动集成SDK:
 1.  点击下载[GUMoreGameSDK_1.0.0](https://gu-sdk-assets.oss-cn-shenzhen.aliyuncs.com/moregame/ios/GUMoreGameSDK.framework_1.0.0.zip "GUMoreGameSDK_1.0.0")
-2. 下载``GUMoreGameSDK``，然后将``GUMoreGameSDK.framework``拖到你的工程目录中去。（注意在添加
-``GUMoreGameSDK.framework``的时候，``options``选项要勾选 ``Copy items if needed``和``Create groups``）。
+
+2. 下载``GUMoreGameSDK``，然后将``GUMoreGameSDK.framework``拖到你的工程目录中去。
 
 3.  由于``GUMoreGameSDK``中使用到了``Categroy``，所有我们需要在工程中配置``Other linker Flag``。具体步骤为：
-``Target`` --> ``Build Setting`` --> ``Linking`` --> ``Other Linker Flags: -ObjC``。
+Build Setting --> Linking --> Other Linker Flags: -ObjC
 
 4. 由于``GUMoreGameSDK``是不支持bitcode的，所有我们还需要在工程配置中将`Enable bitcode`设置为``NO``。具体步骤为：
-``Target`` --> ``Build Setting`` --> ``bitcode`` --> ``Enable bitcode: NO``。
+Build Setting --> bitcode --> Enable bitcode: NO。
 
 5. 传输安全设置，在工程目录中找到``info.plist``文件，点击鼠标右键，选择``Open as``, 继续选择``Source code``，然后复制粘贴下面xml代码：
 ```
@@ -58,7 +62,7 @@ end
 		<true/>
 	</dict>
 ```
-😁至此你已经成功创建并配置好了一个空的GUMoreGameSDK测试工程。
+至此你已经成功创建并配置好了一个空的GUMoreGameSDK测试工程。🍺😃！
 
 ### 第二步： 初始化GUMoreGameSDK
 
