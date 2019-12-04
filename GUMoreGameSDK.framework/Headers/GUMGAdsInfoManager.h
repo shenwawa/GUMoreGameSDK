@@ -29,10 +29,13 @@ NS_ASSUME_NONNULL_BEGIN
 ///
 /// The default style is 'GUMGShowProductStyleNative'.
 @property (nonatomic, assign) GUMGShowProductStyle showProductStyle;
+@property (nonatomic, assign) GUMGPosition position;
 
 - (void)getAllAdsInfoWithApiKey:(NSString *)apiKey adsSits:(NSArray *)adsSits;
 
 - (BOOL)checkMoreGameVideoIsValidWithAdsSit:(NSString *)sit;
+
+- (void)setMoreGameVideoIsMuted:(BOOL)isMuted;
 
 - (void)showMoreGameVideoAdsWithAdsSit:(NSString *)sit
                                   size:(GUMGSize)size

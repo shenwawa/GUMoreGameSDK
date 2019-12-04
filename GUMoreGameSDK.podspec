@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GUMoreGameSDK"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "This is a development kit for display game application video."
   s.license      = "MIT"
   s.ios.deployment_target = '10.0'

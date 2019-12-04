@@ -33,6 +33,10 @@ typedef void(^GUMGGetAdsSitsCompletion)(NSArray *adsSits);
 - (void)setGetAdsSitsCompletion:(GUMGGetAdsSitsCompletion)getAdsSitsCompletion;
 
 
+/// Set the audio to mute or not
+/// @param isMuted 'isMuted' is equals 'YES', that means the video plays on mute, otherwise the opposite
+- (void)setMoreGameVideoIsMuted:(BOOL)isMuted;
+
 /// Show more game ads video
 /// @param sit video sit name
 /// @param size video display size

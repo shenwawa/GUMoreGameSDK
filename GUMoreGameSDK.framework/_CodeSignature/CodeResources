@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/GUMGAdsInfoManager.h</key>
 		<data>
-		sfrpBIChZTXSvoo2VxSqC0HsmOE=
+		cQcyW6lHoH7H9HX0vWm65YYCtss=
 		</data>
 		<key>Headers/GUMGAdsInfoModel.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/GUMGManager.h</key>
 		<data>
-		ZlqrObloFTya1IKsvcy/tyZwdEg=
+		6wU1pxCncso7MD2eKQ9SWBH2AJ0=
 		</data>
 		<key>Headers/GUMGNetworkTool.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/GUMGPlayer.h</key>
 		<data>
-		n+QmB29509zXw8w/3X3HlXWoNSU=
+		Vabf47Vvy3OKaz4wGmvdxql4Ers=
 		</data>
 		<key>Headers/GUMGSize.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/GUMGView.h</key>
 		<data>
-		kY39ivC1Tfn3lnWeXNPuCihC9Fo=
+		1y0Rts9JAn/3zvGALUTJmYoRTeU=
 		</data>
 		<key>Headers/GUMoreGameSDK.h</key>
 		<data>
@@ -102,11 +102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sfrpBIChZTXSvoo2VxSqC0HsmOE=
+			cQcyW6lHoH7H9HX0vWm65YYCtss=
 			</data>
 			<key>hash2</key>
 			<data>
-			PcGl+xzZ+ct+RTez7nje1jyogAJxZrZZEmpzG3ghHbs=
+			nJ9BQQBZqu6Ya8t67vAPBshKj736I0QZGTw0xaITZl4=
 			</data>
 		</dict>
 		<key>Headers/GUMGAdsInfoModel.h</key>
@@ -168,11 +168,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZlqrObloFTya1IKsvcy/tyZwdEg=
+			6wU1pxCncso7MD2eKQ9SWBH2AJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			4zzE0YTKZv93IfyCgaIXNsnl3inZSHGfD57nGrO2n+4=
+			Zwfp9owuP+JD/g4FbZgxyAapZGUXM48ngxCQzPd/umk=
 			</data>
 		</dict>
 		<key>Headers/GUMGNetworkTool.h</key>
@@ -190,11 +190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n+QmB29509zXw8w/3X3HlXWoNSU=
+			Vabf47Vvy3OKaz4wGmvdxql4Ers=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q7mPZwPYNc+1BtSaOX/0Yad0lIxPQQ3nRY7KyR752x8=
+			LkO/miL39lGcpFUsih33jvz6wzHbYhyNx2gLgnC3FHg=
 			</data>
 		</dict>
 		<key>Headers/GUMGSize.h</key>
@@ -234,11 +234,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kY39ivC1Tfn3lnWeXNPuCihC9Fo=
+			1y0Rts9JAn/3zvGALUTJmYoRTeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			PVGKXtNetwAwNfO34Xt3A7dALQmhmWBWn3D/jwc+esE=
+			gBCtoPajbLp4HnvwisIiypBn28hG4qc2eclkfmToxd0=
 			</data>
 		</dict>
 		<key>Headers/GUMoreGameSDK.h</key>

@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GUMGPlayer : NSObject
 
+/// 是否静音
+@property (nonatomic, assign) BOOL isMuted;
+
 - (instancetype)initWithFileName:(NSString *)fileName contentView:(UIView *)contentView;
 
 - (void)play;

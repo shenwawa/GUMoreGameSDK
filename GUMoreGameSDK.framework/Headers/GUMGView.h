@@ -30,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GUMGView : UIView
 
+@property (nonatomic, assign) BOOL isMuted;
+
 - (instancetype)initWithFrame:(CGRect)frame adsInfoModel:(GUMGAdsInfoModel *)infoModel;
 
 - (CGPoint)generatorOriginPointByPosition:(GUMGPosition)position;
